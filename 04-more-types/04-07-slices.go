@@ -7,5 +7,7 @@ func main() {
 
 	var s []int = primes[1:4]
 	fmt.Println(s)
-	fmt.Println(primes)
+
+	s = s[0:cap(s)]
+	fmt.Println(s)
 }
