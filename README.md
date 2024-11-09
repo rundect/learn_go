@@ -20,6 +20,8 @@ https://www.youtube.com/@nikolay_tuzov/playlists
 
 ## Install Gophernotes
 
-`sudo apt install jupyter-core`
+`pip3 install --upgrade pip`
+
+`pip3 install jupyter`
 
 [https://github.com/gopherdata/gophernotes]
