@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type MyFuncOpts struct {
 	FirstName string
 	LastName string
@@ -7,7 +9,8 @@ type MyFuncOpts struct {
    }
 
 func MyFunc(opts MyFuncOpts) error {
-	// выполнение каких-либо действий
+	fmt.Println(opts)
+	return nil
 }
 
 func main() {
